@@ -43,7 +43,7 @@ function startTime() {
         return i;
 
     }
-    h = checkTime(h);
+    
     s = checkTime(s);
     m = checkTime(m);
 
