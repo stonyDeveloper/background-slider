@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Rubik:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <title>Automatic Background slideshow</title>
+</head>
+
+<body onload="startTime()">
+    <!-- <h2>Automatic Slideshow</h2>
+    <p>Change image every 2 seconds:</p> -->
+
+    <p>Team Dynamic Around Time Zone</p>
+
+    <div class="slideshow-container">
+        <div class="container">
+            <span id="txt" class="dateText"> </span>
+            <span id="secs"></span><br>
+            <span class="dayMonthYear">
+        <span id="day"></span>
+            <span id="month"></span>
+            <span id="year"></span>
+            </span>
+
+
+
+            <div id="box" class="box">
+
+                <span id="toggler">
+            <input type="radio" id="" name="fav_language" checked> <label for="html">Local</label></span>
+                <span id="toggle"><input type="radio" id="" name="fav_language" value="CSS"><label for="css">China</label></span>
+                <span id="toggl"><input type="radio" id="" name="fav_language" value="CSS"> <label for="css">London</label></span>
+                <span id="togg"><input type="radio" id="" name="fav_language" value="CSS"><label for="css">New York</label>
+        </span>
+            </div>
+            <button onclick="clickFunction()" id="hideShow">Locations</button>
+            <!-- <select>
+            <option  id="txt" value="soccer">Football</option>
+            <option value="tennis">Tennis</option>
+            <option value="golf">Golf</option>
+            <option value="basketball">Basketball</option>
+    
+        </select> -->
+
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="https://wallpaperaccess.com/full/32513.jpg" style="width: 80vw; height:80vh; margin-top: 3.5rem;" />
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="https://images.unsplash.com/photo-1546587348-d12660c30c50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=8" style="width: 80vw; height: 80vh; margin-top: 3.5rem;" />
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="https://images.unsplash.com/photo-1482148454461-aaedae4b30bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fG5hdHVyYWx8ZW58MHx8MHx8&w=1000&q=80" style="width: 80vw; height:80vh; margin-top: 3.5rem;" />
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="https://images.unsplash.com/photo-1475070929565-c985b496cb9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMG5hdHVyZXxlbnwwfHwwfHw%3D&w=1000&q=80" style="width: 80vw; height:80vh; margin-top: 3.5rem;" />
+            <div class="text">
+
+            </div>
+        </div>
+
+    </div>
+    <br />
+
+
+
+    <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
